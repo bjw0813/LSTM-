@@ -12,11 +12,17 @@
 Cell state
 기존 rnn과 다르게 추가된 이전 정보를 계속해서 전달해주는 역할을 하는 state이다.
 (장기의존성문제를 해결하는 핵심)
+
 *forget gate*
+
 이전 hidden state에서 받아온 정보중 필요한 정보만 걸러서 cell state에 넣어주는 역할
+
 Input gate
+
 현재 시점에서 얻은 정보에 기존 cell state에 추가해주는 역할
+
 Output gate
+
 Input gate에서 얻은 정보 중에 hidden state에 얼마나 전달할 건지를 정하는 역할
 ![image](https://github.com/bjw0813/LSTM-/assets/153045045/06945f36-9000-401b-8650-6e5900797b9f)
 
