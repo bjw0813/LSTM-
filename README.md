@@ -1,4 +1,4 @@
-# LSTM-LONG SHORT TERM MEMORY()
+# LSTM-LONG SHORT TERM MEMORY(1997,  Hochreiter, S., & Schmidhuber, J.)
 
 이 글은 LSTM 논문 공부 및 활용을 위해 필요한 부분을 요약 작성하였습니다. (논문 본문도 위에 첨부)
 
