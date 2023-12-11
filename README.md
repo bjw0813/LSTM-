@@ -91,7 +91,7 @@ Experiment6
 
 
 
-##Lstm parameters by pytorch
+#Lstm parameters by pytorch
 
 Input_size: x의 feature의 수(열의 개수)
 Hidden size: hidden state의 차원의 개수
@@ -99,7 +99,6 @@ Num_layers: hidden state 레이어 개수(기본값은 1)
 Bias: 바이어스 가중치 활성화 여부, 기본값은 true(활성화하겠다는 의미)
 Batch_first:: output의 shape을 정하는 것 true면(batch, seq, feature), False면 (seq,batch,feature), 기본값은 false
 dropout:  드롭아웃 비율. dropout이 0이 아니라면, last layer를 제외한 나머지 LSTM layer에 dropout을 적용한다 기본값:0
-
 drop-out은 특정변수만 과도하게 집중 학습하여 생길 수 있는 과적합을 방지하기 위해서 사용한다. 비율에 따라 랜덤으로 뉴런을 제거하는데 보통 0.5를 많이 사용한다 
 Bidirectional: 양방향 lstm여부, 기본값 false(단일방향의 의미)
 Proj_size: 0보다 큰경우, 해당크기의 projection을 갖는 lstm을 사용한다. 기본값:0
