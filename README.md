@@ -40,6 +40,7 @@ Fahlman에 따라 256개의 훈련데이터 문자열과 256개의 테스트데�
 ![image](https://github.com/bjw0813/LSTM-/assets/153045045/9080743f-c19a-4681-abfc-540157c3b7c5)
 
 ﻿Experiment3
+ 
 실험데이터
 모든 가중치가 -0.1에서 0.1사이값으로 랜덤하게 초기화되어있다. 첫번째 INPUT GATE BIAS는 -1, 두번째는 -3, 세번째는 -5로 초기화되었다. 첫번째 OUTPUT GATE는 -2, 두번째는 -4, 세번째는 -6으로 초기화되었다. 
 학습율은 1.0이면 모든 활성화는 시작과 함께 0으로 초기화한다.
@@ -94,13 +95,21 @@ Experiment6
 #Lstm parameters by pytorch
 
 Input_size: x의 feature의 수(열의 개수)
+
 Hidden size: hidden state의 차원의 개수
+
 Num_layers: hidden state 레이어 개수(기본값은 1)
+
 Bias: 바이어스 가중치 활성화 여부, 기본값은 true(활성화하겠다는 의미)
+
 Batch_first:: output의 shape을 정하는 것 true면(batch, seq, feature), False면 (seq,batch,feature), 기본값은 false
+
 dropout:  드롭아웃 비율. dropout이 0이 아니라면, last layer를 제외한 나머지 LSTM layer에 dropout을 적용한다 기본값:0
+
 drop-out은 특정변수만 과도하게 집중 학습하여 생길 수 있는 과적합을 방지하기 위해서 사용한다. 비율에 따라 랜덤으로 뉴런을 제거하는데 보통 0.5를 많이 사용한다 
+
 Bidirectional: 양방향 lstm여부, 기본값 false(단일방향의 의미)
+
 Proj_size: 0보다 큰경우, 해당크기의 projection을 갖는 lstm을 사용한다. 기본값:0
 
 
