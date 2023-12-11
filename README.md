@@ -32,6 +32,7 @@ Fahlman에 따라 256개의 훈련데이터 문자열과 256개의 테스트데�
 결과: 다른 방법에 비해서 빠르고 정확하다
 
 ﻿Experiment2
+ 
 ![image](https://github.com/bjw0813/LSTM-/assets/153045045/52f43c71-934a-4fc6-9956-6fb83690b13e)
 
 ﻿결과: RTRL, BPTT가 delay p를 10과 100으로 각각 늘렸을 때 문제를 풀지 못하는 반면에 LSTM이 학습도 빠르고 정확한 결과를 보여줬다.
