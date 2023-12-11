@@ -22,6 +22,7 @@ Input gate에서 얻은 정보 중에 hidden state에 얼마나 전달할 건지
 ﻿3)Experiment
  
 Experiment1
+
 실험데이터
 7개의 input unit과 output unit을 사용했으며,.
 Fahlman에 따라 256개의 훈련데이터 문자열과 256개의 테스트데이터 문자열을 사용했다.
